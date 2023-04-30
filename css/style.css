@@ -1,0 +1,64 @@
+ p{
+color: green;
+
+}
+h2{
+	accent-color: red;
+}
+input[type=range]{
+	accent-color: red;
+}
+h3 {border: 5px solid blue;}
+.text1 { 
+
+} 
+.table1{ 
+	animation: 5s i infinite;
+
+ }
+ div {
+  width: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+  aspect-ratio: 3/2;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+.mydiv1
+ {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mydiv1 5s 2;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mydiv1 {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+<table> {
+
+	background-color: yellow;
+}
+<a href>
+.div3 {
+
+	background-color: rgba(55,55,55,0.3);
+	text color: white;
+}
+.one{
+	width: 200px; 
+		backdrop-filter: contrast (180%);
+}
